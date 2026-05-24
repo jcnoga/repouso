@@ -1,12 +1,28 @@
+# dependências
 node_modules/
+
+# build
 dist/
+build/
+
+# env
 .env
 .env.local
-.env.production
+
+# sistema
 .DS_Store
-*.log
-coverage/
-.vite/
-supabase/
+Thumbs.db
+
+# executáveis e binários
 *.exe
-node_modules/
+*.dll
+*.bin
+
+# supabase CLI (IMPORTANTE)
+supabase/
+
+# logs
+*.log
+
+# cache
+.vite/
