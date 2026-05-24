@@ -1,1 +1,3 @@
-export function FinancialDashboard() { return <div>Financeiro (em breve)</div>; }
+export function FinancialDashboard() {
+  return <div>💰 Financeiro</div>;
+}

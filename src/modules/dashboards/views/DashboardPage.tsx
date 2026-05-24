@@ -1,1 +1,7 @@
-export function DashboardPage() { return <div>Dashboard - KPIs e gráficos serão implementados conforme Parte 11</div>; }
+export function DashboardPage() {
+  return (
+    <div style={{ padding: 40 }}>
+      📊 Dashboard Executivo
+    </div>
+  );
+}

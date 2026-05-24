@@ -1,5 +1,4 @@
 import { supabase } from "../lib/supabase";
-
 export const getDashboardData = async () => {
   const residents = await supabase.from("residents").select("*");
 

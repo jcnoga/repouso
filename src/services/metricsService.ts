@@ -1,3 +1,4 @@
+  import { supabase } from "../lib/supabase";
 export const getOccupancy = async () => {
   const { data: residents } = await supabase
     .from("residents")

@@ -1,1 +1,3 @@
-export function FamiliesPage() { return <div>CRM Familiar (em breve)</div>; }
+export function FamiliesPage() {
+  return <div>👨‍👩‍👧 CRM Famílias</div>;
+}

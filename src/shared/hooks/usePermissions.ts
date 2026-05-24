@@ -1,5 +1,13 @@
 import { useAuth } from './useAuth';
-const roleHierarchy = { admin: 5, enfermeiro: 4, financeiro: 3, cuidador: 2, recepcao: 1 };
+const permissions: Record<string, number> = {
+  admin: 10,
+  enfermeiro: 5,
+  financeiro: 4,
+  cuidador: 2,
+  recepcao: 1,
+};
+
+return permissions[user.role];
 export function usePermissions() {
   const { user } = useAuth();
   const role = user?.user_metadata?.role || 'recepcao';

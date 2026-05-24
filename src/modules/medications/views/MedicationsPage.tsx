@@ -1,1 +1,3 @@
-export function MedicationsPage() { return <div>Módulo Medicações (em breve)</div>; }
+export function MedicationsPage() {
+  return <div>Medications</div>;
+}

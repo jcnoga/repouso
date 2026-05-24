@@ -1,1 +1,3 @@
-export function CareSchedulePage() { return <div>Agenda de Cuidados (em breve)</div>; }
+export function CareSchedulePage() {
+  return <div>📅 Agenda</div>;
+}
